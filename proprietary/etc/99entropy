@@ -1,0 +1,5 @@
+#!system/bin/sh
+
+# changes for increase values of entropy
+echo "kernel.random.read_wakeup_threshold=1024" >> /system/etc/sysctl.conf
+echo "kernel.random.write_wakeup_threshold=2048" >> /system/etc/sysctl.conf
