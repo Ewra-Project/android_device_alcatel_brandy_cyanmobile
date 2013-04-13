@@ -81,20 +81,6 @@ PRODUCT_COPY_FILES += \
     device/alcatel/brandy/proprietary/lib/libOmxWmvDec.so:/system/lib/libOmxWmvDec.so \
     device/alcatel/brandy/proprietary/lib/libqcomm_omx.so:/system/lib/libqcomm_omx.so
 
-# Opencore libs
-PRODUCT_COPY_FILES += \
-    device/alcatel/brandy/proprietary/lib/libopencorehw.so:/system/lib/libopencorehw.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_author.so:/system/lib/libopencore_author.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_common.so:/system/lib/libopencore_common.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_download.so:/system/lib/libopencore_download.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_net_support.so:/system/lib/libopencore_net_support.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_player.so:/system/lib/libopencore_player.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_rtsp.so:/system/lib/libopencore_rtsp.so \
-    device/alcatel/brandy/proprietary/lib/libopencore_rtspreg.so:/system/lib/libopencore_rtspreg.so
-
 # Camera
 PRODUCT_COPY_FILES += \
     device/alcatel/brandy/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
@@ -112,7 +98,6 @@ PRODUCT_COPY_FILES += \
     device/alcatel/brandy/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     device/alcatel/brandy/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     device/alcatel/brandy/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    device/alcatel/brandy/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     device/alcatel/brandy/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     device/alcatel/brandy/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
