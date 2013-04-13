@@ -2222,8 +2222,8 @@ status_t AudioHardware::AudioStreamInMSM72xx::setParameters(const String8& keyVa
 
 status_t AudioHardware::setFmVolume(float v)
 {
-    unsigned int VolValue = (unsigned int)(AudioSystem::logToLinear(v));
-    int volume = (unsigned int)(VolValue*VolValue/100);
+    float ratio = 2.5;
+    int volume = (unsigned int)(AudioSystem::logToLinear(v) * ratio);
 
     char volhex[10] = "";
     sprintf(volhex, "0x%x ", volume);
