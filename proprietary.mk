@@ -130,7 +130,10 @@ PRODUCT_COPY_FILES += \
     device/alcatel/brandy/proprietary/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
     device/alcatel/brandy/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     device/alcatel/brandy/proprietary/etc/AudioFilter.csv:/system/etc/AudioFilter.csv \
-    device/alcatel/brandy/proprietary/etc/99entropy:/system/etc/init.d/99entropy
+    device/alcatel/brandy/proprietary/etc/99entropy:/system/etc/init.d/99entropy \
+    device/alcatel/brandy/proprietary/lib/modules/zram.ko:system/lib/modules/zram.ko \
+    device/alcatel/brandy/proprietary/lib/modules/lzo_compress.ko:system/lib/modules/lzo_compress.ko \
+    device/alcatel/brandy/proprietary/lib/modules/lzo_decompress.ko:system/lib/modules/lzo_decompress.ko
 
 # Keys
 PRODUCT_COPY_FILES += \
